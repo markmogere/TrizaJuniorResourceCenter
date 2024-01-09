@@ -1,0 +1,133 @@
+
+        /* Add your CSS styles here */
+        body {
+          margin: 0;
+          font-family: verdana;
+}.er-container{
+  width: 100%;
+}
+.Collapsible-E-Resource {
+  background-color: transparent;
+  color: rgb(56, 4, 4);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+  white-space: nowrap; /* Prevent text from wrapping */
+  padding: 10px; /* Set initial padding */
+}
+
+/* Adjust the width based on content */
+.Collapsible-E-Resource:hover {
+  width: fit-content; /* Adjust width based on content */
+  padding: 10px; 
+  color: rgb(255, 255, 255);
+  background-color: #749b8b;
+  /* Padding for the button */
+}
+
+  /* Style for collapsible content (hidden by default) */
+  .content {
+      display: none;
+      overflow: hidden;
+      background-color: transparent;
+  }
+
+  /* Style for links inside the collapsible content */
+  .content ul {
+      padding: 0;
+      list-style: none;
+  }
+
+  .content li {
+      display: inline-block; /* Make list items inline-block */
+      width: auto; /* Allow width to adjust based on content */
+  }
+
+  .content a {
+      display: block;
+      padding: 12px 16px;
+      text-decoration: none;
+      color: #000000;
+      transition: background-color 0.3s;
+      background-color: rgb(199, 199, 199);
+      margin-bottom: 20px;
+  }
+
+  /* Hover effect for links */
+  .content a:hover {
+      background-color: #771010;
+      color: white;
+  } .btn-homepage {
+padding: 10px 20px;
+background-color: rgb(41, 3, 3);
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s, color 0.3s;
+margin-left: 43%;
+}.er-container h2{
+  color: rgb(6, 71, 6);
+  font-size: 20px;
+  margin-left: 30px;
+  line-height: 2;
+  font-weight: bold;
+
+}.er-container h4{
+  color: red;
+  line-height: 2.5;
+  font-weight: bold;
+}.er-container h3{
+  color: rgb(19, 51, 37);
+  font-weight: bold;
+  line-height: 2.5;
+  padding: 20px;
+}
+
+/* Remove underline on hover */
+.btn-homepage:hover {
+text-decoration: none;
+}
+
+/* Optional: Hover effect */
+.btn-homepage:hover {
+background-color: #df1e18; /* Darker brown on hover */
+color: aliceblue;
+}     .external-link {
+  display: inline-block;
+  /* Add any additional styles you want for the link */
+}
+
+p {
+  display: flex;
+  align-items: center;
+  /* Additional styling for the container (paragraph) */
+}   
+
+@media screen and (max-width: 700px) {
+  .er-container {
+    margin-bottom: 5%;
+    margin-top: 1%;
+
+  }.Collapsible-E-Resource {
+    font-size: 30px;
+    margin: 20px auto;
+    
+  }.content h5{
+    font-size: 25px;
+  }.content a{
+    font-size: 23px;
+  }.btn-homepage{
+    margin-left: 5px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+  }.content{
+    width: 80%;
+    background-color: transparent;
+    
+  }
+}/* CSS for the external link */
+
